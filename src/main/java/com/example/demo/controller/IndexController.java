@@ -10,6 +10,6 @@ public class IndexController {
 
     @GetMapping
     public ResponseEntity<String> index() {
-        return new ResponseEntity<>("Hi, there!", HttpStatus.OK);
+        return new ResponseEntity<>("Hi, there! - v2", HttpStatus.OK);
     }
 }
